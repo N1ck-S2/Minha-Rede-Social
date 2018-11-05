@@ -1,0 +1,108 @@
+* {
+	border: 0;
+	margin: 0;
+	padding: 0;
+}
+
+
+body {
+	background-image: url(images/fundo-pag-logo.jpg)
+}
+
+
+
+
+
+/* CSS PARA A PÁGINA DE LOGO */
+
+.navbarPagLogo {
+	position: absolute;
+    width: 100%;
+    z-index: 12;
+    box-sizing: border-box;
+    padding: 10px;
+    background: linear-gradient(rgba(0,0,0,.2),transparent);
+}
+
+.textPagLogo {
+	border-radius: 5px;
+    font-size: 14px;
+    border: 1px solid #919191;
+    margin: 1px;
+    background: #fff;
+    background: rgba(255,255,255,.1);
+    padding: 9px;
+    color: #fff;
+    outline: none;
+    transition: background-color .2s ease;
+    float: left;
+    font-family: inherit;
+}
+
+#nomePagLogo {
+	width: 200px;
+}
+
+.botaoNavbarPagLogo {
+	background-color: #99c432;
+    margin: 1px 0 1px 10px;
+    padding: 9px 18px;
+    font-size: 14px;
+    line-height: 1.2;
+    box-sizing: border-box;
+    color: #fff;
+    float: left;
+    border: 2px solid transparent;
+    outline-width: 0;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.DropdownNavbarPagLogo {
+	background-color: #89b02c;
+	margin: 1px 0px;
+    padding: 9px 10px;
+    font-size: 14px;
+    line-height: 1.2;
+    box-sizing: border-box;
+    color: #fff;
+    float: left;
+    border: 2px solid transparent;
+    outline-width: 0;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
