@@ -10,6 +10,7 @@
 
     <!-- Bootstrap core CSS -->
     <link href="dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="style.css">
 
 
@@ -17,24 +18,22 @@
 
   <body>
     <div class="navbarPagLogo">
-      <div class="menuPagLogo">
-        
-      </div>
       <div class="formularioPagLogo">
-        <form>
+        <form class="formNavPagLogo">
           <input class="textPagLogo" id="nomePagLogo" name="email" type="text" placeholder="Usuário/e-mail">
           <input class="textPagLogo" name="password" type="password" placeholder="Senha">
-          <button class="botaoNavbarPagLogo" type="submit">Entrar</button>
-
-          <div class="dropdown">
-            <button class="dropdown-toggle DropdownNavbarPagLogo" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            </button>
-            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-              <button type="button" class="" href="#">Iniciar sessão com o Facebook</button>
-              <button type="button" class="" href="#">Iniciar sessão com o Google</button>
+          <div>
+            <button class="botaoNavbarPagLogo" type="submit">Entrar</button>
+            <div class="dropdown">
+              <button class="dropdown-toggle DropdownNavbarPagLogo" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              </button>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <button type="button" class="opcoesNavPagLogo" id="botaoBlueNavbarPagLogo" href="#"><i class="fab fa-facebook figNavPagLogo"></i><small class="textOpcaoPagLogo"> Entrar com o Facebook</small></button>
+                <button type="button" class="opcoesNavPagLogo" id="botaoRedNavbarPagLogo" href="#"><i class="fab fa-google figNavPagLogo"></i><small class="textOpcaoPagLogo"> Entrar com o Google</small></button>
+              </div>
             </div>
           </div>
-
+          <a href="#" class="linkDecoradoNavPagLogo">Esqueceu sua senha?</a>
         </form>
       </div>
     </div>
