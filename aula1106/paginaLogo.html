@@ -6,7 +6,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Exemplo Bootstrap</title>
+    <title>Entre ou cadastre-se</title>
 
     <!-- Bootstrap core CSS -->
     <link href="dist/css/bootstrap.min.css" rel="stylesheet">
@@ -20,8 +20,8 @@
     <div class="navbarPagLogo">
       <div class="formularioPagLogo">
         <form class="formNavPagLogo">
-          <input class="textPagLogo" id="nomePagLogo" name="email" type="text" placeholder="Usuário/e-mail">
-          <input class="textPagLogo" name="password" type="password" placeholder="Senha">
+          <input class="textPagLogo inlineFormInputGroup03" id="nomePagLogo" name="email" type="email" placeholder="Usuário/e-mail">
+          <input class="textPagLogo inlineFormInputGroup04" name="password" type="password" placeholder="Senha">
           <div>
             <button class="botaoNavbarPagLogo" type="submit">Entrar</button>
             <div class="dropdown">
@@ -42,13 +42,10 @@
       <div class="row">
         <div class="col-lg">
           <div class="card-nick mx-auto">
-            <svg width="100" height="100" viewBox="0 -1 100 100" xmlns="http://www.w3.org/2000/svg">
-              <g fill="none" fill-rule="evenodd">
-                <circle cx="50" cy="50" r="49" fill="#20C4CB"></circle>
-              </g>
-              <image src="https://static.canva.com/static/images/canva_logo_100x100.png"></image>
-            </svg>
-            <small>Novo no Canva? Registre-se!</small>
+            <div class="circulo">
+                <small>Canva</small>
+            </div>
+            <h2 id="titleCard">Novo no Canva? Registre-se!</h2>
             <form class="needs-validation form-entrada" novalidate>
               <div class="form-row">
                 <div class="col">
@@ -72,7 +69,18 @@
                     <div class="input-group-prepend">
                       <div class="input-group-text">@</div>
                     </div>
-                    <input type="email" class="form-control" id="inlineFormInputGroup" placeholder="Informe seu e-mail" required>
+                    <input type="email" class="form-control" id="inlineFormInputGroup03" placeholder="Informe seu e-mail" required>
+                  </div>
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="col">
+                  <label for="validationCustom08">Senha:</label>
+                  <div class="input-group">
+                    <div class="input-group-prepend">
+                      <div class="input-group-text"><i class="fas fa-lock"></i></div>
+                    </div>
+                    <input type="password" class="form-control" id="inlineFormInputGroup04" placeholder="Informe sua senha" required>
                   </div>
                 </div>
               </div>
@@ -81,7 +89,7 @@
                   <label for="validationCustom08">Data de nascimento:</label>
                   <div class="input-group">
                     <div class="input-group-prepend">
-                      <div class="input-group-text"><i class="fas fa-store"></i></div>
+                      <div class="input-group-text"><i class="fas fa-birthday-cake"></i></div>
                     </div>
                     <input type="date" class="form-control" id="inlineFormInputGroup" placeholder="Informe seu site" required>
                   </div>
@@ -123,7 +131,7 @@
               </div>
               <hr>
               <div class="mt-4">
-                <button type="submit" class="btn btn-outline-light btn-lg btn-block">Enviar</button>
+                <button type="submit" class="btn btn-lg btn-block botaoFormPagLogo">Enviar</button>
               </div>
             </form>
           </div>

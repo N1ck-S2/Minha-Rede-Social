@@ -4,7 +4,6 @@
 	padding: 0;
 }
 
-
 body {
 	background-image: url(images/fundo-pag-logo.jpg)
 }
@@ -142,7 +141,7 @@ svg {
 .card-nick {
     background-color: #fff;
     text-align: center;
-    margin-top: 250px;
+    margin-top: 170px;
     width: 455px;
     transition: transform .05s ease,padding .5s ease;
     padding: 50px 12px 15px;
@@ -160,6 +159,50 @@ svg {
 .form-entrada {
     text-align: justify;
 }
+
+.circulo {
+    background-color: #20C4CB;
+    padding: 10px 30px;
+    font-size: 45px;
+    color: #fff;
+    font-family: monotype corsiva;
+    position: absolute;
+    top: -44px;
+    left: 165px;
+    border-radius: 43px;
+}
+
+#titleCard {
+    display: block;
+    font-size: 22px;
+    font-weight: 300;
+    text-overflow: ellipsis;
+}
+
+.botaoFormPagLogo {
+    border: 1px solid #20C4CB;
+    color: #20C4CB;
+    background-color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
