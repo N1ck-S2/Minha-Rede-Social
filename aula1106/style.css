@@ -124,16 +124,11 @@
 
 /* CARD NICK */
 
-svg {
-    position: relative;
-    top: auto;
-    left: auto;
-}
-
 .card-nick {
     background-color: #fff;
     text-align: center;
     margin-top: 187px;
+    margin-bottom: 50px;
     width: 455px;
     transition: transform .05s ease,padding .5s ease;
     padding: 50px 12px 15px;
@@ -183,11 +178,38 @@ svg {
 
 /* FECHAMENTO CARD NICK */
 
+/* FOOTER PAG LOGO */
+
+.footerPagLogo {
+    position: absolute;
+    background: linear-gradient(transparent,rgba(0,0,0,.2));
+    width: 100%;
+    z-index: 11;
+    padding: 5px 10px;
+    box-sizing: border-box;
+    text-align: center;
+    color: #3f4652;
+    line-height: 1.4;
+    font-family: Open Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 90%;
+    content: '';
+    display: block;
+    clear: both;
+}
+
+#idiomaFooterPagLogo {
+    color: #fff;
+}
+
+/* FECHAMENTO FOOTER PAG LOGO */
+
 /* FECHAMENTO CSS PARA A PÁGINA DE LOGO */
 
 
 
 /* CSS PARA A PÁGINAS DA REDE SOCIAL */
+
+/* NAVBAR DAS PÁGINAS DA REDE SOCIAL */
 
 .navbarPagsRedeSocial {
     position: absolute;
@@ -196,16 +218,45 @@ svg {
     box-sizing: border-box;
     padding: 10px;
     background-color: #20C4CB;
+    display: inline;
+}
+
+.logoPagsRedeSocial {
+    display: inline;
+    color: #fff;
+    font-size: 35px;
+    position: relative;
+    top: -2px;
+}
+
+.pesquisaPagsRedeSocial {
+    display: inline-block;
+    position: relative;
+    top: -9px;
 }
 
 .linksPagsRedeSocial {
+    display: inline;
+    position: relative;
+    top: -11px;
+}
+
+.divLinkPagsRedeSocial {
+    display: inline-block;
+    margin-left: 30px;
+}
+
+.imgLinkPerfil {
+    width: 25px;
+    height: 25px;
+    border-radius: 50px;
     display: inline-block;
 }
 
 .maisUmLinkPagsRedeSocial {
     color: #fff;
     font-weight: 800;
-    display: block;
+    display: inline;
 }
 
 .logoPesquisaPagsRedeSocial {
@@ -232,12 +283,113 @@ svg {
     border-radius: 5px 0px;
 }
 
+/* FECHAMENTO NAVBAR DAS PÁGINAS DA REDE SOCIAL */
+
+.post {
+    background-color: #fff;
+    margin-top: 100px;
+    width: 700px;
+    border: 1px solid #ececec;
+    border-radius: 5px;
+}
+
+.pessoa-post {
+    padding-left: 20px;
+    padding-top: 15px;
+}
+
+.descricao {
+    padding-left: 20px;
+}
+
+.reacoes-post {
+    text-align: center;
+}
+
+.img-person-post {
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+}
+
+.person-post {
+    font-size: 15px;
+}
+
+.post-home {
+    width: 100%;
+}
+
+/* CSS DA HOME */
 
 
 
 
+
+
+
+
+
+
+
+
+
+/* FECHAMENTO CSS DA HOME */
 
 /* FECHAMENTO CSS PARA A PÁGINAS DA REDE SOCIAL */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
