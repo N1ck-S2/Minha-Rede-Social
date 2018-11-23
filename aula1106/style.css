@@ -4,14 +4,6 @@
 	padding: 0;
 }
 
-body {
-	background-image: url(images/fundo-pag-logo.jpg)
-}
-
-
-
-
-
 /* CSS PARA A PÁGINA DE LOGO */
 
 /* NAVBAR */
@@ -141,7 +133,7 @@ svg {
 .card-nick {
     background-color: #fff;
     text-align: center;
-    margin-top: 170px;
+    margin-top: 187px;
     width: 455px;
     transition: transform .05s ease,padding .5s ease;
     padding: 50px 12px 15px;
@@ -180,9 +172,64 @@ svg {
 }
 
 .botaoFormPagLogo {
-    border: 1px solid #20C4CB;
+    border: 2px dashed #20C4CB;
     color: #20C4CB;
     background-color: #fff;
+}
+
+.iFormPagLogo {
+    color: #20C4CB;
+}
+
+/* FECHAMENTO CARD NICK */
+
+/* FECHAMENTO CSS PARA A PÁGINA DE LOGO */
+
+
+
+/* CSS PARA A PÁGINAS DA REDE SOCIAL */
+
+.navbarPagsRedeSocial {
+    position: absolute;
+    width: 100%;
+    z-index: 12;
+    box-sizing: border-box;
+    padding: 10px;
+    background-color: #20C4CB;
+}
+
+.linksPagsRedeSocial {
+    display: inline-block;
+}
+
+.maisUmLinkPagsRedeSocial {
+    color: #fff;
+    font-weight: 800;
+    display: block;
+}
+
+.logoPesquisaPagsRedeSocial {
+    color: #fff;
+}
+
+.inputPesquisaPagsRedeSocial {
+    border-radius: 5px 0px;
+    font-size: 14px;
+    border: none;
+    width: 350px;
+    background-color: #fff;
+    padding: 5px;
+    color: #20C4CB;
+    outline: none;
+    transition: background-color .2s ease;
+    font-family: inherit;
+}
+
+.buttonPesquisaPagsRedeSocial {
+    color: #20c4cb;
+    background-color: #fff;
+    padding: 4px;
+    border-radius: 5px 0px;
 }
 
 
@@ -190,22 +237,7 @@ svg {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* FECHAMENTO CSS PARA A PÁGINAS DA REDE SOCIAL */
 
 
 
