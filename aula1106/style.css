@@ -285,6 +285,18 @@
 
 /* FECHAMENTO NAVBAR DAS PÁGINAS DA REDE SOCIAL */
 
+/* DETALHE DA NAVBAR DAS PAINAS DA REDE SOCIAL */
+
+.detalheNavbarPagsRedeSocial {
+    position: absolute;
+    top: 72px;
+    background-color: #117a8b;
+    width: 100%;
+    height: 3px;
+}
+
+/* FECHAMENTO DETALHE DA NAVBAR DAS PAINAS DA REDE SOCIAL */
+
 .post {
     background-color: #fff;
     margin-top: 100px;
@@ -318,6 +330,17 @@
 
 .post-home {
     width: 100%;
+}
+.rections {
+    font-size: 15px;
+}
+
+.like {
+    color: blue;
+}
+
+.dislike {
+    color: red;
 }
 
 /* CSS DA HOME */
