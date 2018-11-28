@@ -298,10 +298,11 @@
 /* FECHAMENTO DETALHE DA NAVBAR DAS PAINAS DA REDE SOCIAL */
 
 .post {
+    margin: auto;
     background-color: #fff;
     margin-top: 100px;
     width: 700px;
-    border: 1px solid #ececec;
+    border: 1px solid #DCDCDC;
     border-radius: 5px;
 }
 
@@ -310,29 +311,45 @@
     padding-top: 15px;
 }
 
+.img-person-post {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    display: inline;
+    position: relative;
+    top: -15px;
+}
+
+.conjunto-post-time {
+    display: inline-block;
+}
+
+.person-post {
+    font-size: 20px;
+    color: #117a8b;
+    display: inline;
+}
+
+.time-person-post {
+    color: #20C4CB;
+    display: block;
+}
+
 .descricao {
     padding-left: 20px;
+}
+
+.post-home {
+    width: 100%;
 }
 
 .reacoes-post {
     text-align: center;
 }
 
-.img-person-post {
-    width: 40px;
-    height: 40px;
-    border-radius: 50px;
-}
-
-.person-post {
-    font-size: 15px;
-}
-
-.post-home {
-    width: 100%;
-}
 .rections {
-    font-size: 15px;
+    font-size: 25px;
+    margin: 5px;
 }
 
 .like {
