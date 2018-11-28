@@ -297,10 +297,57 @@
 
 /* FECHAMENTO DETALHE DA NAVBAR DAS PAINAS DA REDE SOCIAL */
 
-.post {
+.postar {
     margin: auto;
     background-color: #fff;
     margin-top: 100px;
+    width: 700px;
+    border: 1px solid #dcdcdc;
+    border-radius: 5px;
+}
+
+.pessoa-postar {
+    padding-left: 20px;
+    padding-top: 15px;
+    margin: 15px 0px;
+}
+
+.img-person-postar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    display: inline;
+    position: relative;
+    top: -10px;
+    border: 2px solid #117a8b;
+    padding: 2px;
+}
+
+.escrever-poste {
+    border: 1px solid #dcdcdc;
+    background-color: #fff;
+    border-radius: 15px;
+    width: 70%;
+    height: 50px;
+    position: relative;
+    top: -6px;
+    padding: 0px 10px;
+}
+
+.publicar-poste {
+    background-color: #20c4cb;
+    border-radius: 15px;
+    color: #117a8b;
+    width: 20%;
+    height: 50px;
+    position: relative;
+    top: -6px;
+}
+
+.post {
+    margin: auto;
+    background-color: #fff;
+    margin-top: 30px;
     width: 700px;
     border: 1px solid #DCDCDC;
     border-radius: 5px;
@@ -360,7 +407,55 @@
     color: red;
 }
 
-/* CSS DA HOME */
+/* CSS DO PERFIL */
+
+.foto-capa {
+    width: 100%;
+    height: 600px;
+}
+
+.foto-perfil {
+    width: 250px;
+    height: 250px;
+    border-radius: 125px;
+    border: 5px solid #ffffff;
+    position: absolute;
+    top: 435px;
+    left: 90px;
+}
+
+.navbarPerfil {
+    background-color: #ffffff;
+    width: 100%;
+    height: 60px;
+}
+
+.conjuntoLinksNavPerfil {
+    margin-left: 370px;
+    position: relative;
+    top: 15px;
+}
+
+.divLinkNavbarPerfil {
+    margin-left: 30px;
+    display: inline-block;
+}
+
+.maisUmLinkNavbarPerfil {
+    font-weight: 800;
+    display: inline;
+    color: #20C4CB;
+    font-size: 18px;
+}
+
+.postar-perfil {
+    margin: auto;
+    background-color: #fff;
+    margin-top: 30px;
+    width: 700px;
+    border: 1px solid #dcdcdc;
+    border-radius: 5px;
+}
 
 
 
@@ -374,7 +469,17 @@
 
 
 
-/* FECHAMENTO CSS DA HOME */
+
+
+
+
+
+
+/* FECHAMENTO CSS DO PERFIL */
+
+
+
+
 
 /* FECHAMENTO CSS PARA A PÁGINAS DA REDE SOCIAL */
 
