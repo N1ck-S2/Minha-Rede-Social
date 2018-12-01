@@ -127,8 +127,8 @@
 .card-nick {
     background-color: #fff;
     text-align: center;
-    margin-top: 187px;
-    margin-bottom: 50px;
+    margin-top: 185px;
+    margin-bottom: 70px;
     width: 455px;
     transition: transform .05s ease,padding .5s ease;
     padding: 50px 12px 15px;
@@ -155,7 +155,7 @@
     font-family: monotype corsiva;
     position: absolute;
     top: -44px;
-    left: 165px;
+    left: 142px;
     border-radius: 43px;
 }
 
